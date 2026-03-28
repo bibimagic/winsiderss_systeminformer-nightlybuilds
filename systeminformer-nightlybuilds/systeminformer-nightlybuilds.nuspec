@@ -2,8 +2,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>systeminformer-nightlybuilds</id>
-    <version>3.0.5578</version>
-    <title>System Informer - Nightly Builds (Install)</title>
+    <version>4.0.26060.1607</version>
+    <title>System Informer - Nightly Builds (Portable)</title>
     <authors>Winsider Seminars and Solutions, Inc.</authors>
     <owners>bibimagic</owners>
     <licenseUrl>https://raw.githubusercontent.com/winsiderss/systeminformer/master/LICENSE.txt</licenseUrl>
@@ -26,9 +26,18 @@ Features
     View detailed stack traces with kernel-mode, WOW64 and .NET support.
     Go beyond services.msc: create, edit and control services.
     Small, portable and no installation required.
-    100% Free Software (MIT)</description>
-    <copyright>2008-2022 / System Informer / Winsider Seminars and Solutions, Inc.</copyright>
-    <releaseNotes>Thirdparty: Remove legacy gzip library</releaseNotes>
+    100% Free Software (MIT)
+
+#### Package Parameters
+These package parameters can be set - 
+
+ * `/defaultTaskMgr` - Make SystemInformer the default task manager.
+ * `/shortcut` - Install a shortcut in %public%\Desktop.
+
+These parameters can be passed with `--params`.
+For example: `--params="'/defaultTaskMgr /shortcut'"`.</description>
+    <copyright>2008-2024 / System Informer / Winsider Seminars and Solutions, Inc.</copyright>
+    <releaseNotes>https://github.com/winsiderss/systeminformer/commits/master/</releaseNotes>
     <tags>system informer systeminformer processhacker task manager monitor process resource graph statistic</tags>
     <packageSourceUrl>https://github.com/bibimagic/winsiderss_systeminformer</packageSourceUrl>
     <docsUrl>https://systeminformer.com/readme.php</docsUrl>
